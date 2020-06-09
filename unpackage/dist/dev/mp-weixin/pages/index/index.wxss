@@ -1,0 +1,163 @@
+
+.local_scan.data-v-24f820f0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+}
+.text-area.data-v-24f820f0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.goods.data-v-24f820f0 {
+	width: 48%;
+	margin: 5rpx;
+	float: left;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-bottom: 10rpx;
+	position: relative;
+}
+.goods_image.data-v-24f820f0 {
+	width: 100%;
+}
+.index_header.data-v-24f820f0 {
+	background-color: #018A56;
+	height: 345rpx;
+	width: 750rpx;
+}
+.index_header_wei.data-v-24f820f0 {
+	background-color: #018A56;
+	height: 345rpx;
+	width: 750rpx;
+}
+.icon_local.data-v-24f820f0 {
+	height: 50rpx;
+	width: 50rpx;
+}
+.icon_local_image.data-v-24f820f0 {
+	height: 100%;
+	width: 100%;
+}
+.icon_scan.data-v-24f820f0 {
+	margin-left: auto;
+	margin-right: 30rpx;
+	height: 50rpx;
+	width: 50rpx;
+}
+.icon_scan_image.data-v-24f820f0 {
+	height: 100%;
+	width: 100%;
+}
+.icon_function.data-v-24f820f0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 30rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.icon_function_item.data-v-24f820f0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin: 30rpx;
+	margin-top: 0rpx;
+	height: 100%;
+	width: 100%;
+}
+.icon_demo.data-v-24f820f0 {
+	height: 80rpx;
+	width: 80rpx;
+}
+.icon_demo_image.data-v-24f820f0 {
+	height: 100%;
+	width: 100%;
+}
+.local_text.data-v-24f820f0 {
+	color: #FFFFFF;
+}
+.icon_text.data-v-24f820f0 {
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.icon_fuzhu_text.data-v-24f820f0 {
+	font-size: 25rpx;
+	color: #FFFFFF;
+}
+.controls-pause.data-v-24f820f0 {
+	border-radius: 25rpx;
+	width: 650rpx;
+	height: 125rpx;
+	margin: auto;
+	right: 50rpx;
+}
+.controls-title.data-v-24f820f0 {
+	margin: auto;
+	padding: 20rpx;
+	margin-top: 20rpx;
+	border-radius: 25rpx;
+	width: 650rpx;
+	background-color: #FFFFFF;
+}
+.video_index.data-v-24f820f0 {
+	width: 100%;
+	height: 380rpx;
+	border-radius: 25rpx;
+}
+
+/* 首页活动 */
+.titleContent.data-v-24f820f0 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20rpx 0 0rpx 0;
+}
+.activeHot.data-v-24f820f0 {
+	background-color: red;
+	padding: 2rpx 20rpx 6rpx 10rpx;
+	margin-left: 10rpx;
+	font-size: 10rpx;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-radius: 25rpx;
+}
+.buttonSet.data-v-24f820f0 {
+	width: 90%;
+	margin-left: 5%;
+}
+.contentHot.data-v-24f820f0 {
+	font-size: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.progress-box.data-v-24f820f0{
+	margin-left: 2%;
+	width: 300rpx;
+}
+.progressSet.data-v-24f820f0{
+	font-size: 1rpx;
+	border-radius: 25px;
+}
+
+/* 立即领取 */
+.buttonGet.data-v-24f820f0 {
+	width: 100%;
+	border-radius: 35rpx;
+	background-color: #018A56;
+}
+

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/user/user",
+    "pages/vip/vip",
+    "pages/cart/cart"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "水果商城",
+    "navigationBarBackgroundColor": "#018A56",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/首页_0.png",
+        "selectedIconPath": "static/首页_1.png"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "VIP专区",
+        "iconPath": "./static/vip_0.png",
+        "selectedIconPath": "static/vip_1.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/购物车_0.png",
+        "selectedIconPath": "static/购物车_1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/我的_0.png",
+        "selectedIconPath": "static/我的_1.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap58.json"
+}
