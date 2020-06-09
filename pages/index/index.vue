@@ -269,7 +269,7 @@
 	}
 	.progressSet{
 		font-size: 1rpx;
-		border-radius: 25rpx;
+		border-radius: 25px;
 	}
 
 	/* 立即领取 */
