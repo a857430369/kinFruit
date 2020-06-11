@@ -1,6 +1,8 @@
 {
   "navigationBarTitleText": "购物车",
   "usingComponents": {
+    "evan-checkbox-group": "/components/evan-checkbox-group/evan-checkbox-group",
+    "evan-checkbox": "/components/evan-checkbox/evan-checkbox",
     "uni-number-box": "/components/uni-number-box/uni-number-box"
   }
 }

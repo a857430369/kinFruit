@@ -228,7 +228,7 @@
 	/* 首页活动 */
 	.titleContent {
 		display: flex;
-		margin: 20rpx 0 0rpx 0;
+		margin: 10px 0 0px 0;
 	}
 
 	.activeHot {
