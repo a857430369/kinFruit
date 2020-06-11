@@ -27,12 +27,7 @@
 }
 .index_header.data-v-24f820f0 {
 	background-color: #018A56;
-	height: 345rpx;
-	width: 750rpx;
-}
-.index_header_wei.data-v-24f820f0 {
-	background-color: #018A56;
-	height: 345rpx;
+	height: 325rpx;
 	width: 750rpx;
 }
 .icon_local.data-v-24f820f0 {
@@ -137,19 +132,24 @@
 }
 .buttonSet.data-v-24f820f0 {
 	width: 90%;
+	margin-top: 4%;
 	margin-left: 5%;
 }
 .contentHot.data-v-24f820f0 {
 	font-size: 10rpx;
+	margin-top: 10rpx;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
 }
-.progress-box.data-v-24f820f0{
+.progress-box.data-v-24f820f0 {
 	margin-left: 2%;
 	width: 300rpx;
 }
-.progressSet.data-v-24f820f0{
+.progressSet.data-v-24f820f0 {
 	font-size: 1rpx;
 	border-radius: 25px;
 }
@@ -158,6 +158,7 @@
 .buttonGet.data-v-24f820f0 {
 	width: 100%;
 	border-radius: 35rpx;
+	bottom: 0;
 	background-color: #018A56;
 }
 

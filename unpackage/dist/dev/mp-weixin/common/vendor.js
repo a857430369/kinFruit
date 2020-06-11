@@ -8532,7 +8532,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": {}, "pages/login/login": { "navigationBarTitleText": "登录" }, "pages/register/register": {}, "pages/user/user": {}, "pages/vip/vip": {}, "pages/cart/cart": {} }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "水果商城", "navigationBarBackgroundColor": "#018A56", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/cart/cart": { "navigationBarTitleText": "购物车" }, "pages/index/index": {}, "pages/login/login": { "navigationBarTitleText": "登录" }, "pages/register/register": {}, "pages/user/user": {}, "pages/vip/vip": { "navigationBarTitleText": "VIP专区" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "水果商城", "navigationBarBackgroundColor": "#018A56", "backgroundColor": "#F8F8F8", "backgroundColorTop": "#018A56" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
@@ -8549,9 +8549,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 9 */,
 /* 10 */,
 /* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */
+/* 12 */
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
   \**********************************************************************************************************/
@@ -8679,11 +8677,19 @@ function normalizeComponent (
 
 
 /***/ }),
+/* 13 */,
+/* 14 */,
 /* 15 */,
 /* 16 */,
 /* 17 */,
 /* 18 */,
-/* 19 */
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */
 /*!***********************************************!*\
   !*** D:/H5/uni-app/fruit/static/shouye_1.png ***!
   \***********************************************/

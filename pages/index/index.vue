@@ -1,88 +1,82 @@
 <template>
 	<view class="content">
-		<!-- #ifdef MP-WEIXIN -->
-		<view class="index_header_wei">
-			<!-- #endif -->
-			<!-- #ifdef H5 -->
-			<view class="index_header">
-				<!-- #endif -->
-				<view class="local_scan">
-					<view class="icon_local">
-						<image class="icon_local_image" src="../../static/local.png"></image>
+		<view class="index_header">
+			<view class="local_scan">
+				<view class="icon_local">
+					<image class="icon_local_image" src="../../static/local.png"></image>
+				</view>
+				<view class="local_text">
+					<text>郭洲村</text>
+				</view>
+				<view class="icon_scan">
+					<image class="icon_scan_image" src="../../static/scan.png"></image>
+				</view>
+			</view>
+			<view class="icon_function">
+				<view class="icon_function_item">
+					<view class="icon_demo">
+						<image class="icon_demo_image" src="../../static/gift.png"></image>
 					</view>
-					<view class="local_text">
-						<text>郭洲村</text>
+					<view class="icon_text">
+						<text>新店开业</text>
 					</view>
-					<view class="icon_scan">
-						<image class="icon_scan_image" src="../../static/scan.png"></image>
+					<view class="icon_fuzhu_text">
+						<text>领取更多好礼</text>
 					</view>
 				</view>
-				<view class="icon_function">
-					<view class="icon_function_item">
-						<view class="icon_demo">
-							<image class="icon_demo_image" src="../../static/gift.png"></image>
-						</view>
-						<view class="icon_text">
-							<text>新店开业</text>
-						</view>
-						<view class="icon_fuzhu_text">
-							<text>领取更多好礼</text>
-						</view>
+				<view class="icon_function_item">
+					<view class="icon_demo">
+						<image class="icon_demo_image" src="../../static/choujian.png"></image>
 					</view>
-					<view class="icon_function_item">
-						<view class="icon_demo">
-							<image class="icon_demo_image" src="../../static/choujian.png"></image>
-						</view>
-						<view class="icon_text">
-							<text>抽奖</text>
-						</view>
-						<view class="icon_fuzhu_text">
-							<text>0</text>
-						</view>
+					<view class="icon_text">
+						<text>抽奖</text>
 					</view>
-					<view class="icon_function_item">
-						<view class="icon_demo">
-							<image class="icon_demo_image" src="../../static/wallet.png"></image>
-						</view>
-						<view class="icon_text">
-							<text>现金·金额</text>
-						</view>
-						<view class="icon_fuzhu_text">
-							<text>0</text>
-						</view>
+					<view class="icon_fuzhu_text">
+						<text>0</text>
 					</view>
 				</view>
-				<view>
-					<cover-image class="controls-pause img" src="../../static/shouye_1.png"></cover-image>
-					<view class="controls-title">
-						<video class="video_index" src="../../static/shouye_1.png" controls></video>
-						<cover-view>
-							<!-- <view class="index_video"> -->
-							<!-- </view> -->
-
-							<cover-view class="titleContent">
-								<cover-view style="font-weight: 600;font-family: 'Microsoft YaHei';">居然水果商城入住本地</cover-view>
-								<cover-view class="activeHot">
-									<cover-image style="width: 48rpx; height: 48rpx;" src="../../static/火.png"></cover-image>
-									<cover-view style="margin-top: 10rpx;">活动</cover-view>
-								</cover-view>
-							</cover-view>
-							<cover-view class="contentHot">
-								<view>
-									天天快乐 20分钟前完成领取
-								</view>
-								<view class="progress-box">
-									<progress percent="20" class="progressSet" show-info stroke-width="20" />
-								</view>
-							</cover-view>
-						</cover-view>
+				<view class="icon_function_item">
+					<view class="icon_demo">
+						<image class="icon_demo_image" src="../../static/wallet.png"></image>
 					</view>
-					<view class="buttonSet">
-						<button class="buttonGet" size="mini" type="primary">立即领取</button>
+					<view class="icon_text">
+						<text>现金·金额</text>
+					</view>
+					<view class="icon_fuzhu_text">
+						<text>0</text>
 					</view>
 				</view>
 			</view>
+			<view>
+				<cover-image class="controls-pause img" src="../../static/shouye_1.png"></cover-image>
+				<view class="controls-title">
+					<video class="video_index" src="../../static/shouye_1.png" controls></video>
+					<cover-view>
+
+						<cover-view class="titleContent">
+							<cover-view style="font-weight: 600;font-family: 'Microsoft YaHei';">居然水果商城入住本地</cover-view>
+							<cover-view class="activeHot">
+								<cover-image style="width: 48rpx; height: 48rpx;" src="../../static/火.png"></cover-image>
+								<cover-view style="margin-top: 10rpx;font-size: 25rpx;">活动</cover-view>
+							</cover-view>
+						</cover-view>
+					</cover-view>
+					<view class="contentHot">
+						<view style="font-size: 25rpx;">
+							天天快乐 20分钟前完成领取
+						</view>
+						<view class="progress-box">
+							<progress percent="20" font-size="12" border-radius="10" show-info stroke-width="20" />
+						</view>
+					</view>
+
+				</view>
+				<view class="buttonSet">
+					<button class="buttonGet" type="primary">立即领取</button>
+				</view>
+			</view>
 		</view>
+	</view>
 </template>
 
 <script>
@@ -141,13 +135,7 @@
 
 	.index_header {
 		background-color: #018A56;
-		height: 345rpx;
-		width: 750rpx;
-	}
-
-	.index_header_wei {
-		background-color: #018A56;
-		height: 345rpx;
+		height: 325rpx;
 		width: 750rpx;
 	}
 
@@ -255,19 +243,23 @@
 
 	.buttonSet {
 		width: 90%;
+		margin-top: 4%;
 		margin-left: 5%;
 	}
 
 	.contentHot {
 		font-size: 10rpx;
+		margin-top: 10rpx;
 		display: flex;
+		justify-content: space-between;
 	}
-	
-	.progress-box{
+
+	.progress-box {
 		margin-left: 2%;
 		width: 300rpx;
 	}
-	.progressSet{
+
+	.progressSet {
 		font-size: 1rpx;
 		border-radius: 25px;
 	}
@@ -276,6 +268,7 @@
 	.buttonGet {
 		width: 100%;
 		border-radius: 35rpx;
+		bottom: 0;
 		background-color: #018A56;
 	}
 </style>

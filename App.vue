@@ -14,7 +14,7 @@
 
 <style>
 	/*每个页面公共css */
-	.content{
+	.content {
 		width: 100%;
 		height: 100%;
 		background-color: #dee3e6;
